@@ -1,0 +1,82 @@
+{
+    "keys": {
+        "publicKey": {
+            "@context": "https://w3id.org/security/v2",
+            "id": "did:hs:f4bd11de-f301-4153-a8e3-d57046801607#z6Mkw3Vu9W8zvUeZZV92YLQbkXH2GdeJEeWSzBEaqkxAvUsy",
+            "type": "Ed25519VerificationKey2018",
+            "publicKeyBase58": "HbErZFtZawA6SzJKrmSkuRj2T4NSpmG6JAKf1UzA1G6b"
+        },
+        "privateKeyBase58": "61P3w62Xu2cu7Rx5QD2RuGKrkgZGRyZTiNCe9P1ciZXiQydxBCny7hCnBT2J2pSP9C8xBytgbm5ae3dMXWw226VD"
+    },
+    "schemaId": "",
+    "networkUrl": "https://ssi.hypermine.in/core/",
+    "mail": {
+        "host": "",
+        "port": 0,
+        "user": "",
+        "pass": "",
+        "name": "Test Application `"
+    },
+    "jwt": {
+        "secret": "9b8ba222-33c0-4070-a441-f0d4af14e358",
+        "expiryTime": 120000
+    },
+    "appCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            {
+                "hsscheme": "https://ssi.hypermine.in/core/api/v1/schema/sch_080ef270-3af7-4ba2-a3e3-2417550bca44"
+            },
+            {
+                "name": "hsscheme:name"
+            },
+            {
+                "did": "hsscheme:did"
+            },
+            {
+                "owner": "hsscheme:owner"
+            },
+            {
+                "schemaId": "hsscheme:schemaId"
+            },
+            {
+                "serviceEp": "hsscheme:serviceEp"
+            },
+            {
+                "subscriptionId": "hsscheme:subscriptionId"
+            },
+            {
+                "planId": "hsscheme:planId"
+            },
+            {
+                "planName": "hsscheme:planName"
+            }
+        ],
+        "id": "vc_0082ef0e-0f3f-4462-a48a-5293038745af",
+        "type": [
+            "VerifiableCredential",
+            "Hypersign Developer Portal"
+        ],
+        "expirationDate": "2021-07-05T05:06:34.072Z",
+        "issuanceDate": "2021-05-06T05:06:34.096Z",
+        "issuer": "did:hs:2b8ed861-6cdc-4982-a374-f8f2849746ac",
+        "credentialSubject": {
+            "name": "Test Application `",
+            "did": "did:hs:f4bd11de-f301-4153-a8e3-d57046801607",
+            "owner": "did:hs:32b58121-2047-4a4b-a96a-14e9e9ffadfc",
+            "schemaId": "sch_3008d429-47fa-41fb-a2b0-6d9c294553d2",
+            "serviceEp": "https://192.168.43.43:3003/",
+            "subscriptionId": "607ac801292eef27df9cb163",
+            "planId": "3172c077-ff97-4a99-a53f-98ce4c31dd3e",
+            "planName": "Tier 1",
+            "id": "did:hs:f4bd11de-f301-4153-a8e3-d57046801607"
+        },
+        "proof": {
+            "type": "Ed25519Signature2018",
+            "created": "2021-05-06T05:06:34Z",
+            "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sJ7eJKrAkSV9KoukhiZcrCA0QwcMoXc0sSmpVlg5mXC0ZxjlmiqgXUafYl1LDir_-UZ09YNPasA1M9t3OJ2_CQ",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:hs:2b8ed861-6cdc-4982-a374-f8f2849746ac#z6MkuEtSJSPLzEz4F3BjPnWJ5twApPXUAeMfDYhKgdeCG4cg"
+        }
+    }
+}

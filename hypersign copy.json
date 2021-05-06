@@ -1,0 +1,83 @@
+{
+    "keys": {
+        "publicKey": {
+            "@context": "https://w3id.org/security/v2",
+            "id": "did:hs:1bf9b233-4f9b-4107-bc6c-f7fc2bd317a6#z6MknKAtQ8hKyEvaVpYbyGH43R4xUa1ekDYPda37XAviaYJ5",
+            "type": "Ed25519VerificationKey2018",
+            "publicKeyBase58": "8ruqotStdhS7PKhuHhKDCKWxezjoLLJ2wZ8BgtxhfKWh"
+        },
+        "privateKeyBase58": "4zUeUwJGdk4p8HHnwBga4G5eSNdfyBVRAZXU4wdrVSgDzaHQUuvbh3Hp31F4GgEBq9YJZsb8LKQ7DDoGfC334Uc1"
+    },
+    "schemaId": "",
+    "isSubcriptionEnabled": false,
+    "networkUrl": "https://ssi.hypermine.in/core/",
+    "mail": {
+        "host": "",
+        "port": 0,
+        "user": "",
+        "pass": "",
+        "name": "Demo Application"
+    },
+    "jwt": {
+        "secret": "f8bf1490-95e0-4861-8171-2865169f9180",
+        "expiryTime": 120000
+    },
+    "appCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            {
+                "hsscheme": "https://ssi.hypermine.in/core/api/v1/schema/sch_080ef270-3af7-4ba2-a3e3-2417550bca44"
+            },
+            {
+                "name": "hsscheme:name"
+            },
+            {
+                "did": "hsscheme:did"
+            },
+            {
+                "owner": "hsscheme:owner"
+            },
+            {
+                "schemaId": "hsscheme:schemaId"
+            },
+            {
+                "serviceEp": "hsscheme:serviceEp"
+            },
+            {
+                "subscriptionId": "hsscheme:subscriptionId"
+            },
+            {
+                "planId": "hsscheme:planId"
+            },
+            {
+                "planName": "hsscheme:planName"
+            }
+        ],
+        "id": "vc_e6f835a1-cb78-4031-b1ad-e6401fa31185",
+        "type": [
+            "VerifiableCredential",
+            "Hypersign Developer Portal"
+        ],
+        "expirationDate": "2021-06-17T11:43:01.428Z",
+        "issuanceDate": "2021-04-18T11:43:01.448Z",
+        "issuer": "did:hs:2b8ed861-6cdc-4982-a374-f8f2849746ac",
+        "credentialSubject": {
+            "name": "Demo Application",
+            "did": "did:hs:1bf9b233-4f9b-4107-bc6c-f7fc2bd317a6",
+            "owner": "did:hs:32b58121-2047-4a4b-a96a-14e9e9ffadfc",
+            "schemaId": "sch_3008d429-47fa-41fb-a2b0-6d9c294553d2",
+            "serviceEp": "https://192.168.43.43:3003",
+            "subscriptionId": "607ac801292eef27df9cb163",
+            "planId": "3172c077-ff97-4a99-a53f-98ce4c31dd3e",
+            "planName": "Tier 1",
+            "id": "did:hs:1bf9b233-4f9b-4107-bc6c-f7fc2bd317a6"
+        },
+        "proof": {
+            "type": "Ed25519Signature2018",
+            "created": "2021-04-18T11:43:02Z",
+            "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..edxtxPgexjG2RgXCQf4WA2L7S9WkCTXufkMev_gOz0IIj14LWspZLjUrkuWtdIbwDJk9WFaI2K7dxDvrcBbqCg",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:hs:2b8ed861-6cdc-4982-a374-f8f2849746ac#z6MkuEtSJSPLzEz4F3BjPnWJ5twApPXUAeMfDYhKgdeCG4cg"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "keys": {
+      "publicKey": {
+        "@context": "https://w3id.org/security/v2",
+        "id": "did:hs:5195c2a2-37a5-4523-9241-dcb1ee77eceb#z6Mkuyy1XCLccRuBpe51eDVdF8hMuTGPSFFpJoR25Sg6jq2W",
+        "type": "Ed25519VerificationKey2018",
+        "publicKeyBase58": "GXhxvx6BGtQii9EJxeXnQ39N5szY2N1TcnW6FAi5pcF8"
+      },
+      "privateKeyBase58": "2NpgpQdnBS3dmazN3gPFzpgDgTbQcRENgemoE8GzDL9vMpUGCxniWaMLnV6JCt8ARBoexwgUL5A91pN8sWFUAsBt"
+    },
+    "schemaId": "sch_ff82916f-e4de-4d76-85a0-edc0b4d586c3",
+    "networkUrl": "https://ssi.hypermine.in/core/",    
+    "mail": {
+        "host": "smtp.gmail.com",
+        "port": "465",
+        "user": "vishwasbhushan001@gmail.com",
+        "pass": "VishwasGmail1@",
+        "name": "Demo App 1"
+    },
+    "jwt": {
+      "secret": "f7263299-597e-418e-a4a8-df99e2bfcfeb",
+      "expiryTime": 120000
+    },
+    "appCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        {
+          "hsscheme": "https://ssi.hypermine.in/core/api/v1/schema/sch_080ef270-3af7-4ba2-a3e3-2417550bca44"
+        },
+        {
+          "name": "hsscheme:name"
+        },
+        {
+          "did": "hsscheme:did"
+        },
+        {
+          "owner": "hsscheme:owner"
+        },
+        {
+          "schemaId": "hsscheme:schemaId"
+        },
+        {
+          "serviceEp": "hsscheme:serviceEp"
+        },
+        {
+          "subscriptionId": "hsscheme:subscriptionId"
+        },
+        {
+          "planId": "hsscheme:planId"
+        },
+        {
+          "planName": "hsscheme:planName"
+        }
+      ],
+      "id": "vc_7be8d733-d829-453c-a8b8-fb1632d173ba",
+      "type": [
+        "VerifiableCredential",
+        "Hypersign Developer Portal"
+      ],
+      "expirationDate": "2021-06-18T02:17:11.607Z",
+      "issuanceDate": "2021-04-19T02:17:11.629Z",
+      "issuer": "did:hs:2b8ed861-6cdc-4982-a374-f8f2849746ac",
+      "credentialSubject": {
+        "name": "Demo App 1",
+        "did": "did:hs:5195c2a2-37a5-4523-9241-dcb1ee77eceb",
+        "owner": "did:hs:32b58121-2047-4a4b-a96a-14e9e9ffadfc",
+        "schemaId": "sch_ff82916f-e4de-4d76-85a0-edc0b4d586c3",
+        "serviceEp": "http://192.168.43.43:3003",
+        "subscriptionId": "607ac801292eef27df9cb163",
+        "planId": "3172c077-ff97-4a99-a53f-98ce4c31dd3e",
+        "planName": "Tier 1",
+        "id": "did:hs:5195c2a2-37a5-4523-9241-dcb1ee77eceb"
+      },
+      "proof": {
+        "type": "Ed25519Signature2018",
+        "created": "2021-04-19T02:17:12Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1m6wiqaiVP0qL0EslfXXRI1v2pXMzfB2lS8iFTfeXDOS9Hphzu_ECBslCnn3S8foiv0jhKqhavBybt2msIWNDA",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:hs:2b8ed861-6cdc-4982-a374-f8f2849746ac#z6MkuEtSJSPLzEz4F3BjPnWJ5twApPXUAeMfDYhKgdeCG4cg"
+      }
+    }
+  }
