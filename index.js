@@ -41,16 +41,16 @@ httpsLocalhost.getCerts().then(certs => {
         }
     })
     
-    app.post('/hs/api/v2/auth',(req, res) => {
-        try {
-            console.log(req.body)
-            // const user = req.body.hsUserData;
-            // Do something with the user data.
-            res.status(200).send({ status: 200, message: "Success", error: null });
-        } catch (e) {
-            res.status(500).send({ status: 500, message: null, error: e.message });
-        }
-    })
+    // app.post('/hs/api/v2/auth',(req, res) => {
+    //     try {
+    //         console.log(req.body)
+    //         // const user = req.body.hsUserData;
+    //         // Do something with the user data.
+    //         res.status(200).send({ status: 200, message: "Success", error: null });
+    //     } catch (e) {
+    //         res.status(500).send({ status: 500, message: null, error: e.message });
+    //     }
+    // })
     
     // Implement /register API: 
     // Analogous to register user but not yet activated
