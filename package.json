@@ -13,7 +13,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "hypersign-auth-js-sdk": "file:../hm/hypersign-auth-js-sdk"
+    "hypersign-auth-js-sdk": "^2.0.3"
   },
   "devDependencies": {
     "@babel/cli": "7.10.1",
